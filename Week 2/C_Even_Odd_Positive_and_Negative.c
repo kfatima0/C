@@ -14,21 +14,12 @@ int main()
             //even
             even++;
         }
-        else if(a%2==1)
+        else if(a%2 == 1)
         {
             //odd
             odd++;
+            printf("%d\n",a);
         }
-        else if(a<0)
-        {
-            //negative
-            neg++;
-        }else if(a>0)
-        {
-            //positive
-            pos++;
-        }
-    }
     printf("Even: %d\nOdd: %d\nPositive: %d\nNegative: %d\n",even,odd,pos,neg);
     return 0;
     
