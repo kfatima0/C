@@ -31,7 +31,6 @@ int main()
     }
     printf("Even: %d\nOdd: %d\nPositive: %d\nNegative: %d\n",even,odd,pos,neg);
     
-    return 0;
-    
+    return 0;  
 }
 
